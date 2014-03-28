@@ -1,0 +1,108 @@
+--- NOTES ---
+Projects Needed:
+- XMLUtilities
+- GameImportExport
+- GameplayData
+
+--- JAVADOC URL ---
+https://dl.dropboxusercontent.com/u/43889005/CSE219/GameImportExport/index.html
+https://dl.dropboxusercontent.com/u/43889005/CSE219/GameplayData/index.html
+
+--- COMMIT LOG ---
+GameImportExport:
+2eb4e927a09e38b4b2f87d6c495c16c23183a81b	Apr 30, 2013 11:36:49 AM	yv <yv@Veda>
+JavaDocs made for GameIO! Should be done with everything.
+adf9ebb1af8625b6145a1409c7b5dfb3a75689e8	Apr 30, 2013 11:09:37 AM	yv <yv@Veda>
+Made JUnit test, added data file.
+ba52d96335fe215a1709f7c6ea6e3e223b034be8	Apr 28, 2013 12:53:48 PM	yv <yv@Veda>
+Cleaned up exceptions and added JavaDocs.
+8f24d0b2c46dce0d2ca546f597efb684fc8b4c04	Apr 28, 2013 12:43:21 PM	yv <yv@Veda>
+Made GameIOSettings and RegionData(?) JavaDocs.
+285021fde0226f3fbccb55f062f2264f79259a5c	Apr 27, 2013 1:03:47 PM	yv <yv@Veda>
+Getting region name from file to prevent the need for more exceptions.
+c5feaaa030d2fb456f0a4ec5fc4953df1178cb7a	Apr 27, 2013 11:56:36 AM	yv <yv@Veda>
+Fixing subdirectory detection.
+937034181820b55bfd204753a3a645c7c9a2303a	Apr 27, 2013 11:45:37 AM	yv <yv@Veda>
+Fixed exceptions again.
+4d216b072636d3f51ad4691c6c276683d80f8d38	Apr 27, 2013 11:41:43 AM	yv <yv@Veda>
+Working on game mode booleans.
+6b68898f4a34b1388ab8bb91cd0f46137d59a3c8	Apr 27, 2013 11:39:09 AM	yv <yv@Veda>
+Added changes for game mode allowed with bad data.
+ae2a459bf8d39a77dfa55b4712dd7e8efb67501c	Apr 27, 2013 11:34:17 AM	yv <yv@Veda>
+More exception fixing.
+cf785d359be990a03a0fe76c174a20e750b54b36	Apr 27, 2013 11:05:26 AM	yv <yv@Veda>
+Fixed images, and realized I needed to add method calls!!
+a6f12961135c240a352a51ef6a9094a60957bac3	Apr 27, 2013 10:37:51 AM	yv <yv@Veda>
+Working on exception handling.
+8e2491b02351543f40275138abe455177089e87e	Apr 27, 2013 10:25:49 AM	yv <yv@Veda>
+Added statements to be thrown when exception/error is found.
+000adec0c5bd709ea11c9f16e20b22db8375e558	Apr 26, 2013 3:49:24 PM	yv <yv@Veda>
+Made set of methods. Will need to test, and then figure out what the heck JUnit is.
+3e12fb25d4e0d48a598637fffab1d2ca0c544191	Apr 26, 2013 2:55:19 PM	yv <yv@Veda>
+Updated exceptions, for data processing and file gathering.
+69420fcf67902950ddbcca1d433ef05db462a17f	Apr 26, 2013 2:33:06 PM	yv <yv@Veda>
+Going on to the JUnit testing, to save time.
+a7c527bc4ad84163a872f00805b8041fb570e3b7	Apr 21, 2013 3:12:15 PM	yv <yv@Veda>
+The error was with the simple things! Now, to wonder how to implement the other needed components in the most efficient and useful way.
+39247048099ed4ea04f2d7e3f8ecbbe22ee5a491	Apr 21, 2013 12:43:52 PM	yv <yv@Veda>
+Still wondering the mechanics of specific choosing for gameplay.
+9489d94cf3b5eed997d7ccaf87c6e857f751b99d	Apr 21, 2013 11:21:45 AM	yv <yv@Veda>
+Making the IO for the XML data. Wondering how the file searching for additional information and location of the XML file will work out.
+1fdc57adf1ac349000b3c903be5f206648f7e23d	Apr 20, 2013 6:46:50 PM	yv <yv@Veda>
+Making a library for processing the XML and file data.
+
+GameplayData:
+18ac5829b8893bb769450cc19b01c58cf5a97da5	Apr 30, 2013 11:24:57 AM	yv <yv@Veda>
+JavaDocs made for GameDataManager! Should be done with this!!
+87ba0a4504c1780a2d3935a387dd1c401343e445	Apr 30, 2013 11:15:25 AM	yv <yv@Veda>
+Hoping commiting will clear up the weird color this project just turned!
+6029de68e21da260cd579f6278577a45bfdb3908	Apr 28, 2013 12:34:14 PM	yv <yv@Veda>
+Made DataImportExport JavaDocs.
+5dad853b1c711889b811fda277e55676b332c4e8	Apr 28, 2013 12:32:30 PM	yv <yv@Veda>
+Made JavaDocs for SubRegion
+c4312ef68ef27ac5283abab894800d998b413e26	Apr 27, 2013 11:37:42 AM	yv <yv@Veda>
+Adding subdirectory boolean for ease in later programming.
+c278ee8c8592b68553f7bd1eee4c8c24e0c9ee01	Apr 27, 2013 10:59:44 AM	yv <yv@Veda>
+Fixed images.
+9677f6371a0e01cce223cd8e2c46cf0a5d221d54	Apr 26, 2013 3:48:53 PM	yv <yv@Veda>
+Adding file for easier access in game.
+a0efc7901b923bc7cb4cca035e62d70d96a5bfbc	Apr 26, 2013 2:30:03 PM	yv <yv@Veda>
+Going on to the JUnit testing, to save time.
+86a9d08b51287695ba7b8f1ca35f33aa27434385	Apr 21, 2013 3:11:29 PM	yv <yv@Veda>
+Note to self: declaring objects saves you hours of agony and the shame of making silly mistakes.
+c602fcdfd0865fa9363fd9a0de8234a161c50910	Apr 21, 2013 12:43:31 PM	yv <yv@Veda>
+Going to try a mini-test to see what works so far!
+730a48b3edcf7a2d9d47c1767a3c71ac64c1f93c	Apr 21, 2013 12:03:14 PM	yv <yv@Veda>
+Added methods for game reset, can be initialized without initial name for more functionality.
+8f8838f0613d161978c3e3f92e8653ab04604643	Apr 20, 2013 6:52:26 PM	yv <yv@Veda>
+Saving seems useless at the moment. May add later if needed, but right now, not a priority.
+bb73a4d5c604a05ad043c3af64fd1db9a65ffcd2	Apr 20, 2013 5:13:51 PM	yv <yv@Veda>
+Removed Region object for consolidation. All gameplay information is contained in GameDataManager. GDM also holds information about the map and winning audio, though implementation is not a top priority at the moment.
+325a01b3120a27ab8a4ce058bcbe6df4bbc314c8	Apr 20, 2013 5:07:39 PM	yv <yv@Veda>
+Wondering if a main Region node is ideal or needed, given the lack of large-scale tree as per HW #2. (To do so would eat up a lot of time and memory, and would be silly.)
+506ec17aca276a3aaa7dfac37bca78f4122a8f3e	Apr 20, 2013 4:31:19 PM	yv <yv@Veda>
+This contains the information for a completed region for use in the game. It will be independent of the XML import features to allow for better organization, and possible changes on the import/data storage in general.
+
+RambleOnXMLData [ad hoc testing class, not included]
+27279407fdee3a2c25b1fc773a6a689738b1d007	Apr 27, 2013 12:50:13 PM	yv <yv@Veda>
+Going on to JUnit testing
+bca7a5d3c3e6bd32cde9bea6f4ff5d0046aca3f7	Apr 27, 2013 11:47:02 AM	yv <yv@Veda>
+It works! Now to figure out JUnit...
+599720d6e8427dcac8acb37a962ca58800205b6a	Apr 27, 2013 11:34:37 AM	yv <yv@Veda>
+Going to test again!
+9c3e9e8f2698f57749b54977949e5a0e76ddc0db	Apr 27, 2013 11:10:56 AM	yv <yv@Veda>
+Program will completely stop when encountering bad data, but will not crash! Need to find a way to make it continue.
+d523da35f2361bd4aefa0ae169c56e5fd9be8353	Apr 27, 2013 11:06:11 AM	yv <yv@Veda>
+Ready for more testing!
+c558b758da4fd62926410227c5aa02cb45196417	Apr 27, 2013 10:38:12 AM	yv <yv@Veda>
+Testing exceptions again.
+0752ccc08baea539e83e25bdfe0b4b02e0dbd70c	Apr 27, 2013 10:26:36 AM	yv <yv@Veda>
+Trying to see why image/flag object values are null. Exception thrown/file not found, or unable to print data in string?
+91075e887aafc975169557a991aa5a287b81ade7	Apr 27, 2013 10:18:42 AM	yv <yv@Veda>
+Testing new region info harvesting/catching.
+0bbc1f106351479113f1df8619afa8be91a73964	Apr 26, 2013 2:30:10 PM	yv <yv@Veda>
+Going on to the JUnit testing, to save time.
+4698cadb9b763890709e41ccbe97e5a5f403e792	Apr 21, 2013 3:11:02 PM	yv <yv@Veda>
+Tested ability to get name and colors sucessfully!
+cbf9c3fe9fdc3f168dfed9da5446faf45c8c3566	Apr 21, 2013 12:44:31 PM	yv <yv@Veda>
+Test program for working! Will eventually become the main driver until final game implementation.

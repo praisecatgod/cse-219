@@ -1,0 +1,9 @@
+5
+MAP|1
+MAP|./data/map.png
+BACKGROUND|1
+BACKGROUND|./data/background.png
+NEW_GAME|1
+NEW_GAME|./data/new.png
+EXIT_GAME|1
+EXIT_GAME|./data/exit.png
